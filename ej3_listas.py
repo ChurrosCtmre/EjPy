@@ -1,0 +1,15 @@
+n1=int(input("Ingrese el primer número\n"))
+n2=int(input("Ingrese el segundo número\n"))
+n3=int(input("Ingrese el tercer número\n"))
+n4=int(input("Ingrese el cuarto número\n"))
+n5=int(input("Ingrese el quinto número\n"))
+n6=int(input("Ingrese el sexto número\n"))
+n7=int(input("Ingrese el séptimo número\n"))
+n8=int(input("Ingrese el octavo número\n"))
+n9=int(input("Ingrese el noveno número\n"))
+n10=int(input("Ingrese el décimo número\n"))
+lista=[n1,n2,n3,n4,n5,n6,n7,n8,n9,n10]
+suma=n1+n2+n3+n4+n5+n6+n7+n8+n9+n10
+print("los números ingresados son:",lista)
+print("La suma de los números sería:",n1,"+",n2,"+",n3,"+",n4,"+",n5,"+",n6,"+",n7,"+",n8,"+",n9,"+",n10,"=", suma)
+print("El promedio de estos números es:", suma,"/10=" , (suma/10))
