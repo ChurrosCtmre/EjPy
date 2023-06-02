@@ -1,0 +1,3 @@
+import numpy as np
+matriz=np.diag([1,2,3])
+print(matriz)
