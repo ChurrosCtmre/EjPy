@@ -1,9 +1,9 @@
 import numpy as np
 import random as rd
-arreglo=np.array=([rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100)])
 wea=True
 while wea:
     num=int(input("Ingrese el número que crea que está dentro de la lista de diez números del uno al cien generados al azar:\n"))
+    arreglo=np.array=([rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100), rd.randint(1,100)])
     if num>=1 and num<=100:
         print("Esta es la lista de números del uno al cien generada aleatoriamente:")
         print(arreglo)
@@ -17,5 +17,7 @@ while wea:
             elif opc=="No":
                 print("Hasta pronto y gracias por jugar")
                 wea=False
+            else:
+                print("Ingrese opción válida")
     else:
         print("Ingrese valores válidos")
